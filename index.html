@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embed PHP Page</title>
+    <title>Boxcoin Shop Embed</title>
+    <style>
+        /* Reset the default margins and padding */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%; /* Ensures full height */
+            overflow: hidden; /* Avoid scrollbars on the main document */
+        }
+        iframe {
+            display: block;       /* Remove any default margins */
+            width: 100vw;         /* Full viewport width */
+            height: 100vh;        /* Full viewport height */
+            border: none;         /* No borders */
+        }
+    </style>
 </head>
 <body>
-    <h1>This is the main HTML page</h1>
-    <iframe src="https://boxcoin-app.000webhostapp.com/boxcoin/shop.php" width="800" height="600"></iframe>
+    <iframe src="https://boxcoin-app.000webhostapp.com/boxcoin/shop.php" frameborder="0"></iframe>
 </body>
 </html>
